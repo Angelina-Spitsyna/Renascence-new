@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница</title>
+
+ <!-- шрифт montserrat 500 600 -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+ />
+
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__content container --d-flex-sb-c">
+        <a class="logo-color" href="index.html"><img src="assets/images/logo-color.svg" alt="Logo-color"></a> 
+        <button class="header__menu-toggle --d-flex-sb-c" type="button" onclick="this.classList.toggle('is-open')">
+            <p>Меню</p>
+            <img src="assets/images/sandwich.svg" alt="sandwich">
+        </button>
+
+        <div class="header__list">
+            <nav class="header__nav">
+              <ul class="header__menu">
+                <li class="header__menu-item"><a href="project.html">О компании</a></li>
+                <li class="header__menu-item"><a href="#!">Новости</a></li>
+                <li class="header__menu-item"><a href="#!">Документы</a></li>
+                <li class="header__menu-item"><a href="#!">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="header__contact">
+                <p>
+                    <a class="header__tel"  href="tel:+7 982 45-22-67"><b>+7 982 45-22-67</b></a>
+                    <br>
+                    Пн-Пт. с 8:00 до 19:00
+                </p>
+                <a href="#!" class="header__callback --d-flex-sb-c">
+                    <span>Заказать звонок</span>
+                    <img src="assets/images/phone.svg" alt="phone">
+                </a>
+            </div>
+        </div>
+    
+    </div>
+</header>
+  
+  <main class="main-home">
+
+    <div class="top-banner">
+    <div class="top-banner__block container">
+        <div class="top-banner__picture">
+            <img src="assets/images/banner-mob.jpg" alt=""/>
+        </div>
+        <div class="top-banner__contant">
+            <h2 class="top-banner__title-mob">Более <span class="line">1000</span> комфортных квартир от 2,3 млн рублей  в Дзержинском р-не Ярославля</h2>
+            <div class="top-banner__title-com"> 
+                <h2>Доступные квартиры <br> от 1, 6 млн. руб. в Рыбинске</h2>
+                <p>Сдача дома: декабрь 2021 год</p>
+            </div>
+            <div class="top-banner__btn">
+                <a class="btn-blue-oval" href="#">Выбрать квартиру<img src="assets/images/house-white.svg" alt="icon"></a>
+                <a class="btn-circuit-oval" href="#">Получить консультацию</a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+    <section class="main-home__advantages">
+      <div class="container">
+        <h2 class="title">Преимущества жизни в ЖК "Возрождение"</h2>
+        <div class="advantages-cards">
+          <div class="advantages">
+    <div class="advantages__img">
+      <img src=assets/images/advantages/card-1.jpg alt="">
+    </div>
+    <div class="advantages__content">
+      <div class="advantages__header" onclick="this.classList.toggle('is-open')">
+        <div class="advantages__icon">
+            <picture class="project-card__picture">
+                <source srcset=assets/images/advantages/scheme-lg.svg media="(min-width: 768px)"/>
+                <img srcset=assets/images/advantages/scheme.svg alt="" width="40" height="40"/>
+            </picture>
+
+            <!-- <img src=assets/images/advantages/scheme.svg alt="" width="40" height="40"> -->
+        </div>
+        <div class="advantages__title">Инфраструктура</div>
+        <div class="advantages__arrow"> 
+            <img src="assets/images/advantages/chevron-up-w.svg" alt="">
+        </div>
+      </div>
+      <div class="advantages__text">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем распоряжении</div>
+    </div>
+  </div>
+
+          <div class="advantages">
+    <div class="advantages__img">
+      <img src=assets/images/advantages/card-2.jpg alt="">
+    </div>
+    <div class="advantages__content">
+      <div class="advantages__header" onclick="this.classList.toggle('is-open')">
+        <div class="advantages__icon">
+            <picture class="project-card__picture">
+                <source srcset=assets/images/advantages/eco-lg.svg media="(min-width: 768px)"/>
+                <img srcset=assets/images/advantages/eco.svg alt="" width="40" height="40"/>
+            </picture>
+
+            <!-- <img src=assets/images/advantages/eco.svg alt="" width="40" height="40"> -->
+        </div>
+        <div class="advantages__title">Экология</div>
+        <div class="advantages__arrow"> 
+            <img src="assets/images/advantages/chevron-up-w.svg" alt="">
+        </div>
+      </div>
+      <div class="advantages__text">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем распоряжении</div>
+    </div>
+  </div>
+          
+          <div class="advantages">
+    <div class="advantages__img">
+      <img src=assets/images/advantages/card-3.jpg alt="">
+    </div>
+    <div class="advantages__content">
+      <div class="advantages__header" onclick="this.classList.toggle('is-open')">
+        <div class="advantages__icon">
+            <picture class="project-card__picture">
+                <source srcset=assets/images/advantages/car-lg.svg media="(min-width: 768px)"/>
+                <img srcset=assets/images/advantages/car.svg alt="" width="40" height="40"/>
+            </picture>
+
+            <!-- <img src=assets/images/advantages/car.svg alt="" width="40" height="40"> -->
+        </div>
+        <div class="advantages__title">Транспортная доступность</div>
+        <div class="advantages__arrow"> 
+            <img src="assets/images/advantages/chevron-up-w.svg" alt="">
+        </div>
+      </div>
+      <div class="advantages__text">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем распоряжении</div>
+    </div>
+  </div>
+
+          <div class="advantages">
+    <div class="advantages__img">
+      <img src=assets/images/advantages/card-4.jpg alt="">
+    </div>
+    <div class="advantages__content">
+      <div class="advantages__header" onclick="this.classList.toggle('is-open')">
+        <div class="advantages__icon">
+            <picture class="project-card__picture">
+                <source srcset=assets/images/advantages/plan-lg.svg media="(min-width: 768px)"/>
+                <img srcset=assets/images/advantages/plan.svg alt="" width="40" height="40"/>
+            </picture>
+
+            <!-- <img src=assets/images/advantages/plan.svg alt="" width="40" height="40"> -->
+        </div>
+        <div class="advantages__title">Разнообразие планировки</div>
+        <div class="advantages__arrow"> 
+            <img src="assets/images/advantages/chevron-up-w.svg" alt="">
+        </div>
+      </div>
+      <div class="advantages__text">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем распоряжении</div>
+    </div>
+  </div>
+
+          <div class="advantages">
+    <div class="advantages__img">
+      <img src=assets/images/advantages/card-5.jpg alt="">
+    </div>
+    <div class="advantages__content">
+      <div class="advantages__header" onclick="this.classList.toggle('is-open')">
+        <div class="advantages__icon">
+            <picture class="project-card__picture">
+                <source srcset=assets/images/advantages/like-lg.svg media="(min-width: 768px)"/>
+                <img srcset=assets/images/advantages/like.svg alt="" width="40" height="40"/>
+            </picture>
+
+            <!-- <img src=assets/images/advantages/like.svg alt="" width="40" height="40"> -->
+        </div>
+        <div class="advantages__title">Надежность</div>
+        <div class="advantages__arrow"> 
+            <img src="assets/images/advantages/chevron-up-w.svg" alt="">
+        </div>
+      </div>
+      <div class="advantages__text">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем распоряжении</div>
+    </div>
+  </div>
+
+          <div class="advantages">
+    <div class="advantages__img">
+      <img src=assets/images/advantages/card-6.jpg alt="">
+    </div>
+    <div class="advantages__content">
+      <div class="advantages__header" onclick="this.classList.toggle('is-open')">
+        <div class="advantages__icon">
+            <picture class="project-card__picture">
+                <source srcset=assets/images/advantages/money-lg.svg media="(min-width: 768px)"/>
+                <img srcset=assets/images/advantages/money.svg alt="" width="40" height="40"/>
+            </picture>
+
+            <!-- <img src=assets/images/advantages/money.svg alt="" width="40" height="40"> -->
+        </div>
+        <div class="advantages__title">Доступная стоимость</div>
+        <div class="advantages__arrow"> 
+            <img src="assets/images/advantages/chevron-up-w.svg" alt="">
+        </div>
+      </div>
+      <div class="advantages__text">Рядом лес, Волга и зоны для отдыха. Шум и пыль не будут вас беспокоить, так как дом находится на второй линии, а развитая инфраструктура этой части города будет полностью в Вашем распоряжении</div>
+    </div>
+  </div>
+
+        </div>
+      </div>
+    </section>
+      
+    <section class="main-home__map  ">
+      <div class="container">
+        <h2 class="title --bgrn-none " >Инфраструктура и расположение</h2>
+     </div class="--bgrn  ">
+      <div class="map">
+    <div class="map__img">
+        <img src="assets/images/map/map-mob.jpg" alt="" height="700px">
+    </div>
+    <div class="map__transcript">
+        <div class="map__point">
+            <img src="assets/images/map/point-info.svg" alt="">
+        </div>
+
+        <div class="map__list">
+            <div class="map__menu">
+                <a class="map__menu-item" href="">
+                    <img src="assets/images/map/point-school.svg" alt="">
+                    <p>Школа</p>
+                </a>
+                <a class="map__menu-item" href="">
+                    <img src="assets/images/map/point-kindergarten.svg" alt="">
+                    <p>Детский сад</p>
+                </a>
+                <a class="map__menu-item" href="">
+                    <img src="assets/images/map/point-hospital.svg" alt="">
+                    <p>Больница</p>
+                </a>
+                <a class="map__menu-item" href="">
+                    <img src="assets/images/map/point-shop.svg" alt="">
+                    <p>Магазин</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="main-home__plan --bgrn ">
+      <div class="container">
+      <h2 class="title">Планировка квартир</h2>
+      </div>
+      <div class="container">
+    <div class="plan__content">
+        <div class="plan__img">
+            <picture class="project-card__picture">
+                <source srcset="assets/images/apartment-plan.jpg" media="(min-width: 1280px)" width="380px"  height="380px"/>
+                <img srcset="assets/images/apartment-plan-mob.jpg" alt="" width="100%"/>
+            </picture>
+        </div>
+        <div class="plan__text">
+            <div class="plan__btn">
+                <button>1-комн.</button>
+                <button>2-комн.</button>
+            </div>
+            <div class="plan__description">
+                <div class="plan__description-text">
+                    <p class="plan__description-title">Однокомнатные квартиры от 23 м2</p>
+                    <p class="plan__description-price">от 5 400 000 ₽</p>  
+                </div>
+                <div class="btn-blue">
+                    <a  href="">Подобрать квартиру</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <section class="main-home__gallery --bgrn ">
+      <div class="container">
+        <h2 class="title">Галерея наших фото</h2>
+
+        <div class="gallery__slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="gallery__slider-item swiper-slide">
+              <img src=assets/images/gallery-1.jpg alt="">
+
+            </div>
+            <div class="gallery__slider-item swiper-slide">
+              <img src=assets/images/gallery-2.jpg alt="">
+
+            </div>
+            <div class="gallery__slider-item swiper-slide">
+              <img src=assets/images/gallery-3.jpg alt="">
+
+            </div>
+            <div class="gallery__slider-item swiper-slide">
+              <img src=assets/images/gallery-2.jpg alt="">
+
+            </div>
+
+          </div>
+
+          <div class="gallery__navigation">
+            <div class="button-next"><img  src="assets/images/left-arrow.svg" alt=""></div>
+            <div class="button-prev"><img  src="assets/images/right-arrow.svg" alt=""></div> 
+          </div>
+        </div>
+
+        
+        
+     </div>
+    </section>
+
+    <section class="main-home__questions">
+      <div class=" --bgrn ">
+        <h2 class="title container">Как купить?</h2>
+      </div>
+      <div class="questions">
+    <div class="questions__content container">
+
+        <div class="questions__blocks ">
+            <div class="questions__block">
+                <div class="questions__icon">
+                    <img  src="assets/images/coins.svg" alt="">
+                </div>
+                
+                <div class="questions__description">
+                    <p class="questions__title">Материнский капитал</p>
+                    <p class="questions__text">Материнский капитал и другие субсидии в качестве первоначального взноса при покупке жилья в ипотеку или части стоимости квартиры.</p>
+                </div>
+            </div>
+
+            <div class="questions__block">
+                <div class="questions__icon">
+                    <img src="assets/images/people.svg" alt="">
+                </div>
+                <div class="questions__description">
+                    <p class="questions__title">В ипотеку</p>
+                    <p class="questions__text">Специальные ставки некоторых категорий граждан: многодетных и военных.</p>
+                </div>
+            </div>
+
+            <div class="questions__block">
+                <div class="questions__icon">
+                    <img src="assets/images/card.svg" alt="">
+                </div>
+                <div class="questions__description">
+                    <p class="questions__title">100% оплата</p>
+                    <p class="questions__text">Принимают оплату по безналичному расчету.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions__block-with-btn">
+            <div class="questions__text-block-with-btn">
+                <p class="questions__title">Есть вопросы? </p>
+                <p class="questions__text-btn">Закажите бесплатную консультацию или звоните за номером:</p>
+                <p class="questions__title">+7 982 45-22-67</p>
+            </div>
+            <div class="btn-blue">
+                <a  href="">Заказать консультацию</a> 
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+    </section>
+
+    <section class="reviews --bgrn ">
+      <div class="container">
+        <h2 class="title">Отзывы наших клиентов</h2>
+      </div>
+      
+      <div class="reviews__slider swiper-container">
+        <div class="swiper-wrapper">
+
+          <div class="reviews__slider-item swiper-slide">
+            
+            <div class="comment">
+    <div class="comment__content">
+        <img src=assets/images/user1.png alt="">
+        <div class="comment__text">
+            <p class="comment__user">Виталий Степанов</p>
+            <p class="comment__messenger">Страница VK</p>
+        </div>
+    </div>
+    <div class="comment__comment">
+        <p>Современные технологии достигли такого уровня, что внедрение современных методик говорит о возможностях как самодостаточных, так и внешне зависимых концептуальных решений. Диаграммы связей объективно рассмотрены соответствующими инстанциями.</p>
+    </div> 
+</div>
+          </div>
+
+          <div class="reviews__slider-item swiper-slide">
+            <div class="comment">
+    <div class="comment__content">
+        <img src=assets/images/user2.png alt="">
+        <div class="comment__text">
+            <p class="comment__user">Антон Сергеевич</p>
+            <p class="comment__messenger">Страница VK</p>
+        </div>
+    </div>
+    <div class="comment__comment">
+        <p>Повседневная практика показывает, что начало повседневной работы по формированию позиции предопределяет высокую востребованность форм воздействия!</p>
+    </div> 
+</div>
+          </div>
+
+          <div class="reviews__slider-item swiper-slide">
+            <div class="comment">
+    <div class="comment__content">
+        <img src=assets/images/user3.png alt="">
+        <div class="comment__text">
+            <p class="comment__user">Анна Петровна</p>
+            <p class="comment__messenger">Страница VK</p>
+        </div>
+    </div>
+    <div class="comment__comment">
+        <p>Современные технологии достигли такого уровня, что постоянное информационно-пропагандистское обеспечение нашей деятельности предоставляет широкие возможности для переосмысления внешнеэкономических политик.!</p>
+    </div> 
+</div>
+          </div>
+        
+
+          <div class="reviews__slider-item swiper-slide">
+            <div class="comment">
+    <div class="comment__content">
+        <img src=assets/images/user2.png alt="">
+        <div class="comment__text">
+            <p class="comment__user">Антон Сергеевич</p>
+            <p class="comment__messenger">Страница VK</p>
+        </div>
+    </div>
+    <div class="comment__comment">
+        <p>Повседневная практика показывает, что начало повседневной работы по формированию позиции предопределяет высокую востребованность форм воздействия!</p>
+    </div> 
+</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="main-home__partners --bgrn ">
+      <div class="container">
+        <h2 class="title">Наши партнеры</h2>
+        <div class="partners-cards">
+          <div class="partners__card">
+ <a href="#"><img src=assets/images/vtb.svg alt=""></a>
+</div>
+          <div class="partners__card">
+ <a href="#"><img src=assets/images/Sberbank.svg alt=""></a>
+</div>
+          <div class="partners__card">
+ <a href="#"><img src=assets/images/Rosselkhozbank.svg alt=""></a>
+</div>
+        </div>
+      </div>
+    </section>
+
+      
+   
+
+  </main>
+  <footer class="footer">
+    <div class="footer__border">
+        <div class="footer__question container">
+            <a class="logo-white" href="#"><img src="assets/images/logo-white.svg" alt="logo"></a>
+            <div class="footer__question-content">
+                <div class="footer__question-text">
+                    <p class="footer__question-text-top">Остались вопросы?</p> 
+                    <p class="footer__question-text-bottom">Закажите бесплатную консультацию</p> 
+                </div>
+                <a class="footer__btn-white" href="#">Заказать консультацию</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer__border">
+        <div class="footer__info container">
+            <div>
+                <p class="footer__info-name">Телефон:</p>
+                <a class="footer__info-item" href="+7 982 45-22-67">+7 982 45-22-67</a>
+            </div>
+            <div>
+                <p class="footer__info-name">Ел. почта:</p>
+                <a class="footer__info-item" href="vozrojdenie@yandex.ru">vozrojdenie@yandex.ru</a>
+            </div>
+            <div>
+                <p class="footer__info-name">Адрес офиса:</p>
+                <p class="footer__info-item">Ярославская обл. Ярославль, Почтовая улица 12/2</p>
+            </div>
+            <div>
+                <p class="footer__info-name">Адрес обекта:</p>
+                <p class="footer__info-item">Ярославская обл. Ярославль, рядом с ул. Бабича 10/22</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer__media container">
+        <div class="footer__media-text">
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Документы</a>
+        </div>
+        <div class="footer__messengers">
+            <div class="footer__messengers-icon">
+                <img src="assets/images/vk.svg" alt="vk">
+                <img src="assets/images/telegram.svg" alt="telegram">
+                <img src="assets/images/instagram.svg" alt="instagram">
+            </div>
+            <a class="footer__messengers-btn" href="#"> <img src="assets/images/chevron-up.svg" alt=""></a>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/script.min.js"></script>
+
+</body>
+</html>
